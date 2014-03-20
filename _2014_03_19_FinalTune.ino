@@ -21,10 +21,10 @@ const int Schwellwert = 150;      //zulässige Differenz zur Zielposition
 
 //Pin Definition
 
-  int chipDriver = 2;                     //RS485 Treiber für Gewichtstransmitter (HalbDuplex)
-  int EndSchalterPin[5]={0,40,42,52,50};  //Induktive Endschalter
-  int MagnetPin[5]={0,51,53,41,43};       //Zugmagnete
-  int NotAusPin = 3;                      //NotTaste vom Kontrollraum aus
+int chipDriver = 2;                     //RS485 Treiber für Gewichtstransmitter (HalbDuplex)
+int EndSchalterPin[5]={0,40,42,52,50};  //Induktive Endschalter
+int MagnetPin[5]={0,51,53,41,43};       //Zugmagnete
+int NotAusPin = 3;                      //NotTaste vom Kontrollraum aus
 
 //Ende Pin Definition
 
